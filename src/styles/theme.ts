@@ -14,8 +14,7 @@ const lightTheme = createTheme({
       fontWeight: 400,
       fontSize: '24px',
       lineHeight: '120%',
-      transition: 'font-size 2s ease',
-      '@media (max-width:480px)': { fontSize: '20px' }
+      transition: 'font-size 2s ease'
     },
     body2: {
       fontFamily: 'Open Sans, sans-serif',
@@ -43,9 +42,8 @@ const lightTheme = createTheme({
       fontWeight: '600',
       fontStyle: 'normal',
       lineHeight: '125%',
-      transition: 'font-size 2s ease'
-      // '@media (max-width:1440px)': { fontSize: '15px' },
-      // '@media (max-width:720px)': { fontSize: '14px' }
+      transition: 'font-size 2s ease',
+      '@media (max-width:320px)': { fontSize: '14px' }
     },
     subtitle2: {
       fontFamily: 'Open Sans, sans-serif',

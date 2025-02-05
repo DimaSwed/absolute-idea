@@ -5,9 +5,10 @@ import { ThemeWrapper } from '@/providers/provider-theme'
 import StoreProvider from '@/providers/provider-store'
 import I18nProvider from '@/providers/provider-i18n'
 import '@/styles/globals.sass'
-import { Box } from '@mui/material'
+
 import { cookies } from 'next/headers'
 import Header from '@/components/Header/Header'
+import Footer from '@/components/Footer/Footer'
 
 export const metadata: Metadata = {
   title: 'ABSOLUTE IDEAS',
@@ -30,7 +31,7 @@ export default function RootLayout({
               <I18nProvider lang={lang}>
                 <Header />
                 {children}
-                <Box sx={{ backgroundColor: 'background.default' }}></Box>
+                <Footer />
               </I18nProvider>
             </ThemeWrapper>
           </AppRouterCacheProvider>
