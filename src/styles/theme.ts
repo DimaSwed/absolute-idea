@@ -15,6 +15,7 @@ const lightTheme = createTheme({
       fontSize: '24px',
       lineHeight: '120%',
       transition: 'font-size 2s ease'
+      // '@media (max-width:992px)': { fontSize: '20px' }
     },
     body2: {
       fontFamily: 'Open Sans, sans-serif',

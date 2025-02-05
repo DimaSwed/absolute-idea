@@ -1,4 +1,5 @@
 import { Stack } from '@mui/material'
+import ContentBlock from '@/components/ContentBlock/ContentBlock'
 
 export const metadata = {
   title: 'ABSOLUTE IDEAS',
@@ -18,6 +19,8 @@ export default function Home() {
         fontFamily: 'Open Sans, sans-serif',
         color: 'primary.light'
       }}
-    ></Stack>
+    >
+      <ContentBlock />
+    </Stack>
   )
 }
