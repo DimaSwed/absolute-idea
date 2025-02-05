@@ -140,8 +140,8 @@ const lightTheme = createTheme({
     },
     error: {
       main: '#FF0004' // Ошибка (red) +
-    }
-    // divider: '#505050' // Линия темно-серый
+    },
+    divider: '#00000066'
   }
 })
 

@@ -6,6 +6,8 @@ import StoreProvider from '@/providers/provider-store'
 import I18nProvider from '@/providers/provider-i18n'
 import '@/styles/globals.sass'
 import { Box } from '@mui/material'
+import { cookies } from 'next/headers'
+import Header from '@/components/Header/Header'
 
 export const metadata: Metadata = {
   title: 'ABSOLUTE IDEAS',
@@ -17,13 +19,16 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
+  const lang = cookies().get('lang')?.value || 'eng'
+
   return (
     <html lang="en">
       <body style={{ fontFamily: 'Open Sans, sans-serif' }}>
         <StoreProvider>
           <AppRouterCacheProvider>
             <ThemeWrapper>
-              <I18nProvider>
+              <I18nProvider lang={lang}>
+                <Header />
                 {children}
                 <Box sx={{ backgroundColor: 'background.default' }}></Box>
               </I18nProvider>
