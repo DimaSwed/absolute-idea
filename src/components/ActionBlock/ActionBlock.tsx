@@ -1,6 +1,6 @@
 'use client'
 import { FC } from 'react'
-import { Box, Stack, Typography, useMediaQuery } from '@mui/material'
+import { Box, Stack, Typography } from '@mui/material'
 import { useTranslation } from 'react-i18next'
 import { Language } from '@/models/language.types'
 import ColoredButton from '@/common/ui-kit/ColoredButton'
@@ -8,8 +8,6 @@ import ColoredButton from '@/common/ui-kit/ColoredButton'
 const ActionBlock: FC = () => {
   const { t, i18n } = useTranslation()
   const isEnglish = i18n.language === Language.ENG
-
-  const isMobile = useMediaQuery(`(max-width: 320px)`)
 
   return (
     <Box
