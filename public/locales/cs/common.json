@@ -7,5 +7,68 @@
   "content subtitle 2": "Vytváříme vlastní VR vzdělávací programy a poskytujeme špičkové IT outsourcingové služby, které posilují vaše podnikání.",
   "content button": "Spojte se s námi",
   "content title 1": "Absolute",
-  "content title 2": "Ideas"
+  "content title 2": "Ideas",
+  "about subtitle": "O nás",
+  "about title 1": "V Absolute Ideas se specializujeme na špičková",
+  "about title 2": "VR školení",
+  "about title 3": "pro odvětví, jako je ropný a plynárenský průmysl, výroba a zdravotnictví. Naše",
+  "about title 4": "IT outsourcingové služby",
+  "about title 5": "pomáhají firmám škálovat a inovovat rychleji.",
+  "about body text": "Posilujeme podniky prostřednictvím inovativních technologií, které zlepšují vzdělávání, produktivitu a provozní efektivitu.",
+  "about description": {
+    "first": {
+      "numbers": "10+",
+      "title": "Let – Technologická odbornost",
+      "description": "Máme více než desetileté zkušenosti s vývojem VR školení a IT outsourcingem v různých odvětvích.",
+      "image": "./about/about-card-image1.png"
+    },
+    "second": {
+      "numbers": "500+",
+      "title": "Odborníků – Kvalifikovaní a vyškolení",
+      "description": "Naše VR programy zlepšují dovednosti pracovní síly, zatímco naše IT týmy dodávají špičková vývojová řešení.",
+      "image": "./about/about-card-image2.png"
+    },
+    "third": {
+      "numbers": "15+",
+      "title": "Odvětví – Globální dosah",
+      "description": "Poskytujeme škálovatelná VR školení a IT outsourcingová řešení podnikům po celém světě a přizpůsobujeme se různým průmyslovým potřebám.",
+      "image": "./about/about-card-image3.png"
+    }
+  },
+  "services subtitle": "VR vzdělávací programy",
+  "services title 1": "Vytváříme vlastní ",
+  "services title 2": "VR programy",
+  "services title 3": ", které simulují reálné scénáře, což umožňuje inženýrům a",
+  "services title 4": "specialistům",
+  "services title 5": "získat",
+  "services title 6": "praktické zkušenosti",
+  "services title 7": "v bezpečném virtuálním prostředí.",
+  "services body text": "Zvyšte efektivitu školení o 30 %, snižte rizika v náročných prostředích a snižte náklady díky opakovatelným VR simulacím pro odvětví, jako jsou:",
+  "services description": {
+    "title 1": "Ropa a Plyn",
+    "title 2": "Výroba",
+    "title 3": "Výroba",
+    "title 4": "Zdravotnictví",
+    "title 5": "Stavebnictví",
+    "title 6": "Energetika",
+    "title 7": "Strojírenství",
+    "title 8": "Těžba",
+    "services it subtitle": "IT Outsourcing",
+    "services it title 1": "Ať už potřebujete rozšířit svůj ",
+    "services it title 2": "vývojový tým",
+    "services it title 3": "nebo pracovat na novém projektu, naši odborníci vám poskytnou",
+    "services it title 4": "špičkové know-how v každé fázi vývoje.",
+    "services it body text": "Flexibilně rozšiřte svůj vývojový tým, snižte náklady díky rychlé škálovatelnosti a získejte přístup ke specializovaným odborníkům bez dlouhodobých závazků.",
+    "services it description": {
+      "title 1": "Vývoj",
+      "title 2": "QA Testování",
+      "title 3": "Analytika",
+      "title 4": "User Experience",
+      "title 5": "Automatizace",
+      "title 6": "Digitální Transformace",
+      "title 7": "DevOps",
+      "title 8": "Strojové Učení",
+      "title 9": "Kybernetická Bezpečnost"
+    }
+  }
 }

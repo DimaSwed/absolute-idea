@@ -10,7 +10,7 @@ import { LanguageSwitcher } from './LanguageSwitcher'
 import Cookies from 'js-cookie'
 
 const Header: FC = () => {
-  const [lang, setLang] = useState<string>('eng')
+  const [lang, setLang] = useState<string>('en')
 
   useEffect(() => {
     const storedLang = Cookies.get('lang')
@@ -29,11 +29,12 @@ const Header: FC = () => {
       sx={{
         position: 'fixed',
         display: 'flex',
+        zIndex: 1000,
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
         height: '80px',
-        backgroundColor: 'background.default',
+        backgroundColor: 'divider',
         boxShadow: 'none',
         borderBottom: '1px solid #FFFFFF33'
         // '@media (max-width:768px)': { height: '82px' }

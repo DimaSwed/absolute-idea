@@ -25,8 +25,8 @@ export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({ lang, onChangeLang
     >
       <Typography
         variant="subtitle2"
-        onClick={() => changeLanguage('eng')}
-        color={lang === 'eng' ? 'primary.light' : 'primary.main'}
+        onClick={() => changeLanguage('en')}
+        color={lang === 'en' ? 'primary.light' : 'primary.main'}
         border="none"
         sx={{
           backgroundColor: 'transparent',
@@ -49,7 +49,6 @@ export const LanguageSwitcher: FC<LanguageSwitcherProps> = ({ lang, onChangeLang
       </Typography>
       <Typography
         variant="subtitle2"
-        // onClick={() => onChangeLang('cs')}
         onClick={() => changeLanguage('cs')}
         color={lang === 'cs' ? 'primary.light' : 'primary.main'}
         border="none"

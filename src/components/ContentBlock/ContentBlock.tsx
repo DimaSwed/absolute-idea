@@ -227,7 +227,7 @@ const ContentBlock: FC = () => {
                 height: '150px',
                 top: 8,
                 right: 0,
-                left: 16
+                left: 20
               }
             }}
           />
@@ -277,7 +277,7 @@ const ContentBlock: FC = () => {
               position: 'absolute',
               bottom: '-194px',
               left: '417px',
-              maxWidth: isEnglish ? '275px' : '210px',
+              maxWidth: isEnglish ? '300px' : '210px',
               width: '100%',
               '@media (max-width: 1280px) and (min-width: 993px)': {
                 bottom: '-194px',
@@ -285,7 +285,8 @@ const ContentBlock: FC = () => {
               },
               '@media (max-width: 992px) and (min-width: 769px)': {
                 bottom: '-194px',
-                left: '301px'
+                left: '301px',
+                maxWidth: isEnglish ? '300px' : '210px'
               },
               '@media (max-width: 768px) and (min-width: 481px)': {
                 bottom: '-184px',
@@ -305,11 +306,11 @@ const ContentBlock: FC = () => {
           >
             <ColoredButton
               type="button"
-              // variant="contained"
               sx={{
                 color: 'primary.light',
                 textTransform: 'uppercase',
                 gap: '6px',
+
                 '@media (max-width: 768px) and (min-width: 480px) ': {
                   fontSize: '22px'
                 },

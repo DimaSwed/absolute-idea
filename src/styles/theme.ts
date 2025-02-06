@@ -89,10 +89,14 @@ const lightTheme = createTheme({
       lineHeight: '110%',
       letterSpacing: '-0.06em',
       textTransform: 'none',
-      transition: 'font-size 2s ease'
-      // '@media (max-width: 480px)': {
-      //   fontSize: '36px'
-      // }
+      transition: 'font-size 2s ease',
+      '@media (max-width: 768px)': {
+        fontSize: '32px'
+      },
+      '@media (max-width: 480px)': {
+        fontSize: '26px',
+        letterSpacing: -2
+      }
     },
     h4: {
       fontFamily: 'Open Sans, sans-serif',
@@ -108,6 +112,7 @@ const lightTheme = createTheme({
       // }
     },
     h5: {
+      fontFamily: 'Open Sans, sans-serif',
       fontSize: '20px',
       fontWeight: 600,
       fontStyle: 'normal',
@@ -124,7 +129,7 @@ const lightTheme = createTheme({
       light: '#fff' // Белый (white) +
     },
     secondary: {
-      main: '#0a132a' // Темно-серый (dark-grey) +
+      main: '#0A132A' // Темно-серый (dark-grey) +
     },
     background: {
       default: ' #050a18', // Фоновый цвет (bg) +

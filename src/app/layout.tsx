@@ -7,7 +7,6 @@ import I18nProvider from '@/providers/provider-i18n'
 import '@/styles/globals.sass'
 
 import { cookies } from 'next/headers'
-import Header from '@/components/Header/Header'
 import Footer from '@/components/Footer/Footer'
 
 export const metadata: Metadata = {
@@ -20,7 +19,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  const lang = cookies().get('lang')?.value || 'eng'
+  const lang = cookies().get('lang')?.value || 'en'
 
   return (
     <html lang="en">
@@ -29,7 +28,6 @@ export default function RootLayout({
           <AppRouterCacheProvider>
             <ThemeWrapper>
               <I18nProvider lang={lang}>
-                <Header />
                 {children}
                 <Footer />
               </I18nProvider>

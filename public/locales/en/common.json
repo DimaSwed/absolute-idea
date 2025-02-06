@@ -1,0 +1,75 @@
+{
+  "about": "About",
+  "services": "Services",
+  "how it works": "How it works",
+  "contacts": "Contacts",
+  "content subtitle 1": "Shaping the Future with Cutting-Edge Solutions",
+  "content subtitle 2": "Custom VR training programs and expert IT outsourcing solutions to empower your business.",
+  "content button": "Talk to Our Experts",
+  "content title 1": "Absolute",
+  "content title 2": "Ideas",
+  "about subtitle": "About us",
+  "about title 1": "At Absolute Ideas, we specialize in delivering cutting-edge",
+  "about title 2": "VR training solutions ",
+  "about title 3": "for industries like oil and gas, manufacturing, and healthcare. Our",
+  "about title 4": "IT outsourcing services",
+  "about title 5": "empower companies to scale and innovate faster.",
+  "about body text": "Empowering businesses with innovative technology to enhance learning, productivity, and operational efficiency.",
+  "about description": {
+    "first": {
+      "numbers": "10+",
+      "title": "Years – Technology Expertise",
+      "description": "With over a decade of experience, we specialize in VR training solutions and IT outsourcing for various industries.",
+      "image": "./about/about-card-image1.png"
+    },
+    "second": {
+      "numbers": "500+",
+      "title": "Specialists – Skilled & Trainede",
+      "description": "Our VR programs enhance workforce skills, while our IT teams deliver top-tier development solutions for businesses.",
+      "image": "./about/about-card-image2.png"
+    },
+    "third": {
+      "numbers": "15+",
+      "title": "Industries – Global Reach",
+      "description": "We provide immersive VR training and scalable IT outsourcing services to businesses worldwide, adapting to diverse industry needs.",
+      "image": "./about/about-card-image3.png"
+    }
+  },
+  "services subtitle": "VR Training Solutions",
+  "services title 1": "We create custom-built",
+  "services title 2": "VR programs",
+  "services title 3": " to simulate real-world scenarios, enabling engineers and",
+  "services title 4": "specialists",
+  "services title 5": "to gain",
+  "services title 6": "hands-on experience",
+  "services title 7": "in a safe virtual environment.",
+  "services body text": "Increase training efficiency by 30%, reduce risks in high-stakes environments, and cut costs with reusable VR simulations for industries like:",
+  "services description": {
+    "title 1": "Oil & Gas",
+    "title 2": "Manufacturing",
+    "title 3": "Aviation",
+    "title 4": "Healthcare",
+    "title 5": "Construction",
+    "title 6": "Energy",
+    "title 7": "Engineering",
+    "title 8": "Mining"
+  },
+  "services it subtitle": "IT Outsourcing Services",
+  "services it title 1": "Whether you need to scale your ",
+  "services it title 2": "development team",
+  "services it title 3": "or tackle a new project, our skilled developers are here to",
+  "services it title 4": "provide expertise",
+  "services it title 5": "at every stage of the process.",
+  "services it body text": "Scale your development team flexibly, reduce costs with rapid scalability, and gain access to specialized expertise without long-term hiring commitments.",
+  "services it description": {
+    "title 1": "Development",
+    "title 2": "QATesting",
+    "title 3": "Analytics",
+    "title 4": "User Experience",
+    "title 5": "Automation",
+    "title 6": "Digital Transformation",
+    "title 7": "DevOps",
+    "title 8": "Machine Learning",
+    "title 9": "Cyber security"
+  }
+}
