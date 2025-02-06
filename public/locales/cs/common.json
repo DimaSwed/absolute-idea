@@ -70,5 +70,17 @@
     "title 7": "DevOps",
     "title 8": "Strojové Učení",
     "title 9": "Kybernetická Bezpečnost"
-  }
+  },
+  "action subtitle": "Optimalizujte svůj pracovní proces díky odbornému IT outsourcingu a špičkovému VR školení. Nabízíme škálovatelná, nákladově efektivní řešení na míru vašim potřebám.",
+  "action title 1": "Proměňme ",
+  "action title 2": "vaše",
+  "action title 3": "podnikání",
+  "action title 4": "",
+  "action title 5": "společně!",
+  "action description": {
+    "first": { "title": "Flexibilní rozšíření týmu bez dlouhodobých závazků", "number": "01" },
+    "second": { "title": "Moderní VR školení pro rozvoj dovedností", "number": "02" },
+    "third": { "title": "Špičkové vývojové týmy pro bezproblémovou realizaci", "number": "03" }
+  },
+  "action button": "Promluvte si s našimi experty"
 }

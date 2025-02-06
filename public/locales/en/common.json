@@ -71,5 +71,17 @@
     "title 7": "DevOps",
     "title 8": "Machine Learning",
     "title 9": "Cyber security"
-  }
+  },
+  "action subtitle": "Optimize your workflow with expert IT outsourcing and immersive VR training. We offer scalable, cost-effective solutions tailored to your needs.",
+  "action title 1": "Let’s",
+  "action title 2": "Transform",
+  "action title 3": "Your Busin",
+  "action title 4": "ess",
+  "action title 5": "together!",
+  "action description": {
+    "first": { "title": "Flexible team scaling without long-term commitments", "number": "01" },
+    "second": { "title": "Cutting-edge VR training for skill development", "number": "02" },
+    "third": { "title": "Expert development teams for seamless execution", "number": "03" }
+  },
+  "action button": "Talk to Our Experts"
 }

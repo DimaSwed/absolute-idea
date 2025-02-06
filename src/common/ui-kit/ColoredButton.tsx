@@ -3,12 +3,14 @@ import React, { useState } from 'react'
 import { Button, ButtonProps } from '@mui/material'
 import { styled } from '@mui/system'
 
-const ArrowIcon = styled('svg')<{ hover?: boolean }>(({ theme, hover }) => ({
-  width: '15px',
-  height: '15px',
-  fill: hover ? theme.palette.text.secondary : 'white',
-  transition: 'fill 0.3s'
-}))
+const ArrowIcon = styled('svg')<{ hover?: boolean; width?: string; height?: string }>(
+  ({ theme, hover, width, height }) => ({
+    width: width || '15px',
+    height: height || '15px',
+    fill: hover ? theme.palette.text.secondary : 'white',
+    transition: 'fill 0.3s'
+  })
+)
 
 const StyledButton = styled(Button)(({ theme }) => ({
   maxWidth: '261px',
@@ -28,9 +30,16 @@ const StyledButton = styled(Button)(({ theme }) => ({
 
 type ColoredButtonProps = ButtonProps & {
   children: React.ReactNode
+  iconWidth?: string // добавлен новый пропс для ширины иконки
+  iconHeight?: string // добавлен новый пропс для высоты иконки
 }
 
-const ColoredButton: React.FC<ColoredButtonProps> = ({ children, ...props }) => {
+const ColoredButton: React.FC<ColoredButtonProps> = ({
+  children,
+  iconWidth,
+  iconHeight,
+  ...props
+}) => {
   const [hover, setHover] = useState(false)
 
   return (
@@ -40,7 +49,13 @@ const ColoredButton: React.FC<ColoredButtonProps> = ({ children, ...props }) => 
       onMouseLeave={() => setHover(false)}
     >
       {children}{' '}
-      <ArrowIcon xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 16" hover={hover}>
+      <ArrowIcon
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 15 16"
+        hover={hover}
+        width={iconWidth}
+        height={iconHeight}
+      >
         <path
           fillRule="evenodd"
           clipRule="evenodd"
