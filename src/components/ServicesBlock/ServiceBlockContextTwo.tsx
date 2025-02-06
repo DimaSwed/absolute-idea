@@ -10,8 +10,11 @@ const ServiceBlockContextTwo: FC = () => {
   const { t, i18n } = useTranslation()
   const isEnglish = i18n.language === Language.ENG
 
+  const isDesktopB = useMediaQuery(`(max-width: 1280px) and (min-width: 993px)`)
   const isDesktop = useMediaQuery(`(max-width: 992px) and (min-width: 769px)`)
+  const isLaptop = useMediaQuery(`(max-width: 768px) and (min-width: 481px)`)
   const isMobile = useMediaQuery(`(max-width: 480px) and (min-width: 321px)`)
+  const isMobileS = useMediaQuery(`(max-width: 320px)`)
 
   return (
     <Box
@@ -50,12 +53,16 @@ const ServiceBlockContextTwo: FC = () => {
           sx={{
             color: 'primary.light',
             textTransform: 'uppercase',
-            maxWidth: isEnglish ? '952px' : '943px',
+            maxWidth: isEnglish ? '952px' : '940px',
             width: '100%',
             textIndent: '270px',
+            '@media (max-width:1280px)': {
+              textIndent: '220px'
+              // maxWidth: isEnglish ? '600px' : '640px'
+            },
             '@media (max-width:992px)': {
               textIndent: '145px',
-              maxWidth: isEnglish ? '600px' : '640px'
+              maxWidth: isEnglish ? '600px' : '660px'
             },
             '@media (max-width:768px)': {
               textIndent: '165px',
@@ -97,10 +104,14 @@ const ServiceBlockContextTwo: FC = () => {
             component={'img'}
             src={
               isDesktop
-                ? './services/it-image.png'
-                : isMobile
-                  ? './services/it-image.png'
-                  : './services/it-image.png'
+                ? './services/it-image-desktop.png'
+                : isLaptop
+                  ? './services/it-image-laptop.png'
+                  : isMobile
+                    ? './services/it-image-mobile.png'
+                    : isMobileS
+                      ? './services/it-image-mobileS.png'
+                      : './services/it-image.png'
             }
             sx={{
               maxWidth: '476px',
@@ -108,19 +119,23 @@ const ServiceBlockContextTwo: FC = () => {
               height: '360px',
               '@media (max-width:1280px)': {
                 maxWidth: '420px',
-                height: '318px'
+                height: isEnglish ? '338px' : '300px'
               },
               '@media (max-width:992px)': {
                 maxWidth: '330px',
-                height: '282px'
+                height: '358px'
               },
               '@media (max-width:768px)': {
-                maxWidth: '354px',
-                height: '268px'
+                maxWidth: isEnglish ? '354px' : 'auto',
+                height: isEnglish ? '338px' : '300px'
               },
               '@media (max-width:480px)': {
                 maxWidth: '448px',
-                height: '270px'
+                height: '280px'
+              },
+              '@media (max-width:320px)': {
+                maxWidth: '300px',
+                height: '280px'
               }
             }}
           />
@@ -129,15 +144,16 @@ const ServiceBlockContextTwo: FC = () => {
               gap: '40px',
               maxWidth: '416px',
               width: '100%',
-              '@media (max-width:1280px)': { maxWidth: '360px' },
+              '@media (max-width:1280px)': { maxWidth: isEnglish ? '360px' : '370px' },
               '@media (max-width:992px)': {
-                maxWidth: '300px'
+                maxWidth: isEnglish ? '300px' : '320px'
               },
               '@media (max-width:768px)': {
-                maxWidth: isEnglish ? '354px' : '353px'
+                maxWidth: isEnglish ? '354px' : '380px'
               },
               '@media (max-width:480px)': {
-                maxWidth: '100%'
+                maxWidth: '100%',
+                gap: '20px'
               }
             }}
           >
@@ -154,14 +170,31 @@ const ServiceBlockContextTwo: FC = () => {
             >
               {t('services it body text')}
             </Typography>
-            <Box sx={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
+            <Box
+              sx={{
+                display: 'flex',
+                gap: '10px',
+                flexWrap: 'wrap',
+                '@media (max-width:480px)': {
+                  maxWidth: isEnglish ? '100%' : '420px'
+                }
+              }}
+            >
               <ChipText text={t('services it description.title 1')} />
               <ChipText text={t('services it description.title 2')} />
               <ChipText text={t('services it description.title 3')} />
               <ChipText text={t('services it description.title 4')} />
               <ChipText text={t('services it description.title 5')} />
-              <ChipText text={t('services it description.title 6')} />
-              <ChipText text={t('services it description.title 7')} />
+              {isDesktopB || isDesktop || isLaptop ? (
+                <ChipText text={t('services it description.title 7')} />
+              ) : (
+                <ChipText text={t('services it description.title 6')} />
+              )}
+              {isDesktopB || isDesktop || isLaptop ? (
+                <ChipText text={t('services it description.title 6')} />
+              ) : (
+                <ChipText text={t('services it description.title 7')} />
+              )}
               <ChipText text={t('services it description.title 8')} />
               <ChipText text={t('services it description.title 9')} />
             </Box>

@@ -136,7 +136,8 @@ const ServiceBlockContextOne: FC = () => {
                 maxWidth: isEnglish ? '354px' : '353px'
               },
               '@media (max-width:480px)': {
-                maxWidth: '100%'
+                maxWidth: '100%',
+                gap: '20px'
               }
             }}
           >
