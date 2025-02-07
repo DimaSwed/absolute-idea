@@ -6,6 +6,7 @@ import ServicesBlock from '@/components/ServicesBlock/ServicesBlock'
 import ActionBlock from '@/components/ActionBlock/ActionBlock'
 import WorkBlock from '@/components/Work/WorkBlock'
 import WhyBlock from '@/components/WhyBlock/WhyBlock'
+import FormBlock from '@/components/FormBlock/FormBlock'
 
 export const metadata = {
   title: 'ABSOLUTE IDEAS',
@@ -33,6 +34,7 @@ export default function Home() {
       <ActionBlock />
       <WorkBlock />
       <WhyBlock />
+      <FormBlock />
     </Stack>
   )
 }

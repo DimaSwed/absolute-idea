@@ -137,5 +137,40 @@
       "title": "Závazek k inovacím a kvalitě",
       "description": "Využíváme nejnovější technologie a osvědčené postupy, abychom zajistili, že naše řešení nejsou jen špičková, ale také spolehlivá, efektivní a připravená na dlouhodobý úspěch."
     }
+  },
+  "form title 1": "Proměňte své nápady ",
+  "form title 2": "v realitu!",
+  "form subtitle": "Máte projekt v plánu? Podělte se s námi o svou vizi a my vám pomůžeme ji realizovat pomocí odborných řešení a bezproblémové realizace.",
+  "form input name": "JMÉNO",
+  "form input email": "EMAIL",
+  "form input telephone": "TELEFON",
+  "form input message": "ZPRÁVA",
+  "form send button": "Odešlete svou poptávku",
+  "form submitted text 1": "Děkujeme!",
+  "form submitted text 2": "Vaše odeslání bylo přijato!",
+  "form error text": "Jejda! Při odesílání formuláře došlo k chybě.",
+  "form submitting text": "Odesílání...",
+  "form submit text": "Odeslat",
+  "validation": {
+    "name": {
+      "required": "Uveďte prosím své jméno!",
+      "min": "Název musí mít alespoň 2 znaky",
+      "matches": "Jméno musí obsahovat pouze písmena"
+    },
+    "telephone": {
+      "required": "Uveďte prosím kontaktní telefonní číslo!",
+      "matches": "Zadejte prosím platné telefonní číslo ve formátu +7 (___) ___-__-__"
+    },
+    "mail": {
+      "email": "Neplatná e-mailová adresa",
+      "matches": "Neplatná e-mailová adresa",
+      "required": "Povinné pole",
+      "min": "E-mail musí mít alespoň 8 znaků",
+      "max": "E-mail nesmí být delší než 64 znaků"
+    },
+    "message": {
+      "required": "Povinné pole",
+      "min": "Zpráva musí mít alespoň 10 znaků"
+    }
   }
 }

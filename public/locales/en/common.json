@@ -138,5 +138,40 @@
       "title": "Commitment to Innovation & Quality",
       "description": "We embrace the latest technologies and best practices to ensure that our solutions are not only cutting-edge but also reliable, efficient, and built for long-term success."
     }
+  },
+  "form title 1": "Turn Your Ideas",
+  "form title 2": "into Action!",
+  "form subtitle": "Have a project in mind? Share your vision, and we’ll help you bring it to life with expert solutions and seamless execution.",
+  "form input name": "Name",
+  "form input email": "Email",
+  "form input telephone": "Phone number",
+  "form input message": "Message",
+  "form send button": "Launch Your Request",
+  "form submitted text 1": "Thank you!",
+  "form submitted text 2": "Your submission has been received!",
+  "form error text": "Oops! Something went wrong while submitting the form.",
+  "form submitting text": "Submiting...",
+  "form submit text": "Submit",
+  "validation": {
+    "name": {
+      "required": "Please provide your name!",
+      "min": "Name must be at least 2 characters long",
+      "matches": "Name must contain only letters"
+    },
+    "telephone": {
+      "required": "Please provide a contact phone number!",
+      "matches": "Please enter a valid phone number in the format +7 (___) ___-__-__"
+    },
+    "mail": {
+      "email": "Invalid email address",
+      "matches": "Invalid email address",
+      "required": "Required field",
+      "min": "Email must be at least 8 characters long",
+      "max": "Email must be no more than 64 characters long"
+    },
+    "message": {
+      "required": "Required field",
+      "min": "Message must be at least 10 characters long"
+    }
   }
 }
