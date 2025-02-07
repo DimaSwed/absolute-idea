@@ -1,16 +1,14 @@
 'use client'
-import { FC, useRef, useEffect } from 'react'
+import { FC, useRef } from 'react'
 import { Box, Stack } from '@mui/material'
 import TitleName from '@/common/ui-kit/TittleName'
 import { useTranslation } from 'react-i18next'
-import { Language } from '@/models/language.types'
 import TestimonialSlider from './TestimonialSlider'
 import 'swiper/css'
 import 'swiper/css/navigation'
 
 const TestimonialsBlock: FC = () => {
-  const { t, i18n } = useTranslation()
-  const isEnglish = i18n.language === Language.ENG
+  const { t } = useTranslation()
 
   // Refs для кнопок навигации
   const prevRef = useRef<HTMLDivElement | null>(null)
