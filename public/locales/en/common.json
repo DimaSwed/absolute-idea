@@ -83,5 +83,60 @@
     "second": { "title": "Cutting-edge VR training for skill development", "number": "02" },
     "third": { "title": "Expert development teams for seamless execution", "number": "03" }
   },
-  "action button": "Talk to Our Experts"
+  "action button": "Talk to Our Experts",
+  "work subtitle": "How We Work",
+  "work description": {
+    "first": {
+      "numbers": "01",
+      "title": "Consultation",
+      "description": "We begin by thoroughly understanding your business needs and goals. This step ensures we align our solutions with your objectives and set the foundation for a successful partnership."
+    },
+    "second": {
+      "numbers": "02",
+      "title": "Proposal & Roadmap",
+      "description": "Based on our consultation, we develop a customized plan, including project milestones, timelines, and deliverables, giving you a clear vision of how we’ll achieve your goals."
+    },
+    "third": {
+      "numbers": "03",
+      "title": "Development & Updates",
+      "description": "Our team executes the plan using agile methodologies, providing regular updates and incorporating your feedback to ensure we’re on track to deliver the best results."
+    },
+    "fourth": {
+      "numbers": "04",
+      "title": "Delivery & Support",
+      "description": "Once the project is complete, we deliver your solution and offer ongoing support to ensure it runs smoothly and meets your long-term needs."
+    }
+  },
+  "why subtitle": "Why Work With Us",
+  "why title 1": "We focus on delivering",
+  "why title 2": "tailored solutions",
+  "why title 3": ", adaptability, and excellence",
+  "why title 4": "to help",
+  "why title 5": "businesses ",
+  "why title 6": "scale efficiently",
+  "why title 7": "and innovate with confidence. Our approach is built on expertise, flexibility, and a commitment to",
+  "why title 8": "quality",
+  "why title 9": ", ensuring seamless execution and measurable results.",
+  "why description": {
+    "first": {
+      "title": "Expertise in the Field",
+      "description": "With years of experience, we have a deep understanding of industry challenges and know how to deliver high-quality, effective solutions that drive business success."
+    },
+    "second": {
+      "title": "Proven Ability to Customize",
+      "description": "We don’t believe in one-size-fits-all solutions. Our team takes the time to understand your specific needs and creates tailored strategies that align with your goals."
+    },
+    "third": {
+      "title": "Dedicated & Skilled Team",
+      "description": "Our experts bring a wealth of knowledge and hands-on experience, ensuring that every project is executed with precision, efficiency, and attention to detail."
+    },
+    "fourth": {
+      "title": "Scalable & Flexible Approach",
+      "description": "Whether you’re a startup or a large enterprise, our solutions are designed to scale with your business, giving you the flexibility to adapt as your needs evolve."
+    },
+    "fifth": {
+      "title": "Commitment to Innovation & Quality",
+      "description": "We embrace the latest technologies and best practices to ensure that our solutions are not only cutting-edge but also reliable, efficient, and built for long-term success."
+    }
+  }
 }

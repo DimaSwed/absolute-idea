@@ -10,7 +10,7 @@ interface HeaderListMenuProps {
 const HeaderListMenu: FC<HeaderListMenuProps> = ({ customStyles, onClick }) => {
   const { t } = useTranslation()
 
-  const sections = [
+  const sections: { name: string; id: string }[] = [
     { name: t('about'), id: 'about-section' },
     { name: t('services'), id: 'services-section' },
     { name: t('how it works'), id: 'how-it-works-section' },

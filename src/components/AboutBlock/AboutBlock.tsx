@@ -9,7 +9,7 @@ const AboutBlock: FC = () => {
   const { t, i18n } = useTranslation()
   const isEnglish = i18n.language === Language.ENG
 
-  const aboutKeys = ['first', 'second', 'third']
+  const aboutKeys: string[] = ['first', 'second', 'third']
 
   return (
     <Stack

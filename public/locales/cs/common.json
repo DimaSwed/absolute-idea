@@ -82,5 +82,60 @@
     "second": { "title": "Moderní VR školení pro rozvoj dovedností", "number": "02" },
     "third": { "title": "Špičkové vývojové týmy pro bezproblémovou realizaci", "number": "03" }
   },
-  "action button": "Promluvte si s našimi experty"
+  "action button": "Promluvte si s našimi experty",
+  "work subtitle": "Jak pracujeme",
+  "work description": {
+    "first": {
+      "numbers": "01",
+      "title": "Konzultace",
+      "description": "Nejprve důkladně analyzujeme vaše potřeby a cíle, abychom zajistili, že naše řešení jsou v souladu s vaší strategií."
+    },
+    "second": {
+      "numbers": "02",
+      "title": "Návrh & Plánování",
+      "description": "Na základě konzultace připravíme plán s jasnými milníky, harmonogramem a konkrétními výstupy."
+    },
+    "third": {
+      "numbers": "03",
+      "title": "Vývoj & Aktualizace",
+      "description": "Naše týmy pracují metodikou Agile, pravidelně aktualizují stav projektu a zahrnují vaši zpětnou vazbu."
+    },
+    "fourth": {
+      "numbers": "04",
+      "title": "Dodání & Podpora",
+      "description": "Po dokončení projektu zajistíme jeho hladké spuštění a poskytujeme následnou podporu pro dlouhodobý úspěch."
+    }
+  },
+  "why subtitle": "Proč si vybrat nás?",
+  "why title 1": "Zaměřujeme se na poskytování",
+  "why title 2": "řešení na míru",
+  "why title 3": ", flexibilitu a špičkovou kvalitu, abychom firmám ",
+  "why title 4": "pomohli efektivně růst ",
+  "why title 5": " a inovovat s jistotou. Náš přístup je založen na odbornosti, přizpůsobivosti a závazku ke ",
+  "why title 6": "kvalitě",
+  "why title 7": ", což zajišťuje bezproblémovou realizaci a měřitelné výsledky.",
+  "why title 8": "",
+  "why title 9": "",
+  "why description": {
+    "first": {
+      "title": "Odborné znalosti a zkušenosti",
+      "description": "Díky dlouholetým zkušenostem máme hluboké porozumění výzvám v průmyslu a víme, jak poskytovat vysoce kvalitní a efektivní řešení, která podporují úspěch podnikání."
+    },
+    "second": {
+      "title": "Osvědčená schopnost přizpůsobení",
+      "description": "Nevěříme v univerzální řešení pro všechny. Náš tým si dává záležet na pochopení vašich specifických potřeb a vytváří strategie na míru, které jsou v souladu s vašimi cíli."
+    },
+    "third": {
+      "title": "Odhodlaný a zkušený tým",
+      "description": "Naši odborníci přinášejí bohaté znalosti a praktické zkušenosti, které zaručují, že každý projekt bude realizován s přesností, efektivitou a důrazem na detail."
+    },
+    "fourth": {
+      "title": "Škálovatelný a flexibilní přístup",
+      "description": "Ať už jste startup nebo velká společnost, naše řešení jsou navržena tak, aby rostla spolu s vaším podnikáním a umožnila vám flexibilitu přizpůsobit se měnícím se potřebám."
+    },
+    "fifth": {
+      "title": "Závazek k inovacím a kvalitě",
+      "description": "Využíváme nejnovější technologie a osvědčené postupy, abychom zajistili, že naše řešení nejsou jen špičková, ale také spolehlivá, efektivní a připravená na dlouhodobý úspěch."
+    }
+  }
 }
