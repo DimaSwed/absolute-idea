@@ -54,7 +54,9 @@ const FormBlockTitle: FC = () => {
         <Box
           sx={{
             flex: '1 1 50%',
-            order: 1
+            '@media (max-width: 768px)': {
+              order: 1
+            }
           }}
         >
           <Typography
@@ -76,7 +78,14 @@ const FormBlockTitle: FC = () => {
           </Typography>
         </Box>
 
-        <Box sx={{ order: 0, flex: '1 1 50%' }}>
+        <Box
+          sx={{
+            flex: '1 1 50%',
+            '@media (max-width: 768px)': {
+              order: 0
+            }
+          }}
+        >
           <Typography
             variant="h2"
             sx={{

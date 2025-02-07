@@ -83,7 +83,7 @@ const Footer: FC = () => {
               fontWeight: 600,
               textTransform: 'uppercase',
               color: '#C6C6C6',
-              '&:hover': { color: 'primary.light' },
+              '&:hover': { color: 'text.secondary' },
               '@media (max-width:320px)': { fontSize: '20px' }
             }}
           >

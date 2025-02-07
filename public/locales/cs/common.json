@@ -172,5 +172,44 @@
       "required": "Povinné pole",
       "min": "Zpráva musí mít alespoň 10 znaků"
     }
+  },
+  "testimonials subtitle": "Reference od klientů",
+  "testimonials description": {
+    "first": {
+      "image": "./team/avatar-1-Alex B..png",
+      "description": "Jejich vývojový tým se plynule začlenil do našeho a včas dodal vysoce kvalitní funkce. Měli jsme pocit, jako bychom pracovali s vlastním interním týmem.",
+      "name": "Alex B.",
+      "position": "CTO at FinApp Innovations"
+    },
+    "second": {
+      "image": "./team/avatar-2-Lukáš Novák.png",
+      "description": "Jejich VR školení umožnilo našim technikům procvičovat složité postupy v bezpečném prostředí. Výsledek? Méně chyb, rychlejší onboarding a vyšší provozní efektivita.",
+      "name": "Lukáš Novák",
+      "position": "Training Supervisor at EnergyTech"
+    },
+    "third": {
+      "image": "./team/avatar-3-James K..png",
+      "description": "Od první schůzky pochopili naše požadavky na projekt a poskytli tým, který byl nejen kvalifikovaný, ale i proaktivní. Jejich schopnost přizpůsobit se našemu pracovnímu procesu zajistila hladkou a efektivní spolupráci.",
+      "name": "James K.",
+      "position": "Head of Product at NexaCode"
+    },
+    "fourth": {
+      "image": "./team/avatar-4-Jana Dvořáková.png",
+      "description": "Nejenže nám dodali vývojáře – stali se skutečnou součástí našeho týmu. Jejich technická odbornost a schopnost řešit problémy nám pomohly spustit produkt před plánovaným termínem.",
+      "name": "Jana Dvořáková",
+      "position": "Product Owner at InnoSoft"
+    },
+    "fifth": {
+      "image": "./team/avatar-5-Sarah L..png",
+      "description": "Díky jejich VR simulacím se nám podařilo zkrátit dobu školení o 30 % a zároveň zvýšit celkové povědomí o bezpečnosti. Tato technologie zásadně mění pravidla hry v našem odvětví.",
+      "name": "Sarah L.",
+      "position": "Training Director at RefineryPro"
+    },
+    "sixth": {
+      "image": "./team/avatar-6-Emma C..png",
+      "description": "Potřebovali jsme spolehlivého partnera pro rozšíření našeho vývojového týmu a oni předčili všechna očekávání. Jejich odbornost a flexibilita byly přesně to, co jsme hledali.",
+      "name": "Emma C.",
+      "position": "Project Manager at TechBridge Solutions"
+    }
   }
 }

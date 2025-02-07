@@ -173,5 +173,44 @@
       "required": "Required field",
       "min": "Message must be at least 10 characters long"
     }
+  },
+  "testimonials subtitle": "Testimonials",
+  "testimonials description": {
+    "first": {
+      "image": "./team/avatar-1-Alex B..png",
+      "description": "Their development team seamlessly integrated with ours and delivered high-quality features on time. It felt like we were working with an in-house team.",
+      "name": "Alex B.",
+      "position": "CTO at FinApp Innovations"
+    },
+    "second": {
+      "image": "./team/avatar-2-Lukáš Novák.png",
+      "description": "Their VR training allowed our technicians to practice complex procedures in a risk-free environment. The result? Fewer mistakes, faster onboarding, and improved operational efficiency.",
+      "name": "Lukáš Novák",
+      "position": "Training Supervisor at EnergyTech"
+    },
+    "third": {
+      "image": "./team/avatar-3-James K..png",
+      "description": "From the very first meeting, they understood our project requirements and provided a team that was both skilled and proactive. Their ability to adapt to our workflow made the collaboration smooth and efficient.",
+      "name": "James K.",
+      "position": "Head of Product at NexaCode"
+    },
+    "fourth": {
+      "image": "./team/avatar-4-Jana Dvořáková.png",
+      "description": "They didn’t just provide developers—they became a true extension of our team. Their technical expertise and problem-solving approach helped us launch our product ahead of schedule.",
+      "name": "Jana Dvořáková",
+      "position": "Product Owner at InnoSoft"
+    },
+    "fifth": {
+      "image": "./team/avatar-5-Sarah L..png",
+      "description": "Thanks to their VR simulations, our team reduced training time by 30% while improving overall safety awareness. The technology is a game-changer for our industry.",
+      "name": "Sarah L.",
+      "position": "Training Director at RefineryPro"
+    },
+    "sixth": {
+      "image": "./team/avatar-6-Emma C..png",
+      "description": "We needed a reliable partner to scale our development efforts, and they exceeded all expectations. Their expertise and flexibility were exactly what we needed.",
+      "name": "Emma C.",
+      "position": "Project Manager at TechBridge Solutions"
+    }
   }
 }

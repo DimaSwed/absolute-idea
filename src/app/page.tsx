@@ -6,6 +6,7 @@ import ServicesBlock from '@/components/ServicesBlock/ServicesBlock'
 import ActionBlock from '@/components/ActionBlock/ActionBlock'
 import WorkBlock from '@/components/Work/WorkBlock'
 import WhyBlock from '@/components/WhyBlock/WhyBlock'
+import TestimonialsBlock from '@/components/TestimonialsBlock/TestimonialsBlock'
 import FormBlock from '@/components/FormBlock/FormBlock'
 
 export const metadata = {
@@ -34,6 +35,7 @@ export default function Home() {
       <ActionBlock />
       <WorkBlock />
       <WhyBlock />
+      <TestimonialsBlock />
       <FormBlock />
     </Stack>
   )
