@@ -6,6 +6,7 @@ import ServiceBlockContextTwo from './ServiceBlockContextTwo'
 const ServicesBlock: FC = () => {
   return (
     <Stack
+      id={'services-section'}
       sx={{
         position: 'relative',
         maxWidth: '1440px',

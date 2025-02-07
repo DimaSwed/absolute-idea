@@ -7,7 +7,10 @@ const ActionBlock: FC = () => {
   return (
     <Box
       sx={{
-        backgroundImage: 'url("/calltoaction-section-bg.png")',
+        // backgroundImage: 'url("/calltoaction-section-bg.png")',
+        // backgroundSize: 'cover',
+        // backgroundPosition: 'center'
+        backgroundImage: 'linear-gradient(to bottom, #050a18, #5d31a5, #050a18)',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

@@ -27,14 +27,14 @@ const Header: FC = () => {
   return (
     <Box
       sx={{
-        position: 'fixed',
+        // position: 'fixed',
         display: 'flex',
         zIndex: 1000,
         alignItems: 'center',
         justifyContent: 'center',
         width: '100%',
         height: '80px',
-        backgroundColor: 'divider',
+        backgroundColor: 'transparent',
         boxShadow: 'none',
         borderBottom: '1px solid #FFFFFF33'
         // '@media (max-width:768px)': { height: '82px' }

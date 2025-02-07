@@ -13,6 +13,7 @@ const AboutBlock: FC = () => {
 
   return (
     <Stack
+      id={'about-section'}
       sx={{
         position: 'relative',
         maxWidth: '1440px',

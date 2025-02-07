@@ -22,7 +22,7 @@ const ContentBlock: FC = () => {
         padding: '80px 36px 100px 36px',
         display: 'flex',
         flexDirection: 'column',
-        mt: '80px',
+        // mt: '80px',
         '@media (max-width: 1280px) and (min-width: 993px)': {
           padding: '0px 40px 100px 40px'
         },
@@ -30,15 +30,15 @@ const ContentBlock: FC = () => {
           padding: '0px 16px 100px 16px'
         },
         '@media (max-width: 768px) and (min-width: 481px)': {
-          mt: '82px',
+          // mt: '82px',
           padding: '0px 20px 80px 20px'
         },
         '@media (max-width: 480px) and (min-width: 321px)': {
-          mt: '80px',
+          // mt: '80px',
           padding: '0px 16px 70px 16px'
         },
         '@media (max-width: 320px) ': {
-          mt: '82px',
+          // mt: '82px',
           padding: '0px 10px 40px 10px'
         }
       }}

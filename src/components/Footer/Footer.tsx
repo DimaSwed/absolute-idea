@@ -48,7 +48,7 @@ const Footer: FC = () => {
         >
           <Typography
             component="a"
-            href="https://www.google.com/maps/search/?api=1&query=Michelská+966/74,+141+00+Prague+4+-+Michle"
+            href="https://www.google.com/maps?q=Dlouhá+715/38,+Staré+Město,+110+00+Praha"
             target="_blank"
             rel="noopener noreferrer"
             variant="body1"
@@ -57,6 +57,7 @@ const Footer: FC = () => {
               textDecoration: 'none',
               textTransform: 'uppercase',
               color: '#C6C6C6',
+              cursor: 'pointer',
               '&:hover': { color: 'primary.light' },
               '@media (max-width:320px)': { fontSize: '20px' }
             }}
@@ -138,10 +139,10 @@ const Footer: FC = () => {
           <Typography
             variant="subtitle1"
             sx={{
-              cursor: 'pointer',
+              // cursor: 'pointer',
               color: '#505050',
-              textDecoration: 'none',
-              '&:hover': { color: 'primary.main' }
+              textDecoration: 'none'
+              // '&:hover': { color: 'primary.main' }
             }}
           >
             DPH: CZ24228141

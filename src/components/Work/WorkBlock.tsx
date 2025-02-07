@@ -11,6 +11,7 @@ const WorkBlock: FC = () => {
 
   return (
     <Stack
+      id={'how-it-works-section'}
       sx={{
         position: 'relative',
         maxWidth: '1440px',
