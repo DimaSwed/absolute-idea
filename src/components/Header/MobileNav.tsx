@@ -30,8 +30,8 @@ export const MobileNav: FC<IWindowProps> = ({ window, lang, onChangeLang }) => {
   const drawer = (
     <Box
       position={'relative'}
-      height={'100vh'}
       sx={{
+        minHeight: '100vh',
         backgroundColor: 'background.default',
         display: 'flex',
         flexDirection: 'column'
@@ -99,11 +99,12 @@ export const MobileNav: FC<IWindowProps> = ({ window, lang, onChangeLang }) => {
 
       <Stack
         sx={{
-          gap: '100px',
+          gap: '60px',
           alignItems: 'center',
           mt: '130px',
-          '@media (max-width: 480px)': { mt: '100px' },
-          '@media (max-width: 320px)': { mt: '68px', gap: '60px' }
+          mb: '114px',
+          '@media (max-width: 480px)': { mt: '80px', gap: '60px', mb: '130px' },
+          '@media (max-width: 320px)': { mt: '60px', gap: '50px', mb: '55px' }
           // m: '0 auto'
           // position: 'absolute',
           // left: 0,

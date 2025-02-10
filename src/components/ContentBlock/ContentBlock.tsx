@@ -311,7 +311,7 @@ const ContentBlock: FC = () => {
                 textTransform: 'uppercase',
                 gap: '6px',
 
-                '@media (max-width: 768px) and (min-width: 480px) ': {
+                '@media (max-width: 768px)': {
                   fontSize: '22px'
                 },
                 '@media (max-width: 480px)': {

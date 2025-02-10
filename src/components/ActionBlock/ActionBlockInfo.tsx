@@ -78,6 +78,11 @@ const ActionBlockInfo: FC = () => {
               '@media (max-width: 768px)': {
                 maxWidth: '100%'
               },
+              '@media (max-width: 420px) and (min-width: 321px)': {
+                height: 'fit-content',
+                gap: '65px',
+                textAlign: 'end!important'
+              },
               '@media (max-width: 320px)': {
                 height: '41px'
               }

@@ -2,11 +2,11 @@
 import { FC } from 'react'
 import { Box, Typography } from '@mui/material'
 import { useTranslation } from 'react-i18next'
-import { Language } from '@/models/language.types'
+// import { Language } from '@/models/language.types'
 
 const ActionBlockTitle: FC = () => {
-  const { t, i18n } = useTranslation()
-  const isEnglish = i18n.language === Language.ENG
+  const { t } = useTranslation()
+  // const isEnglish = i18n.language === Language.ENG
 
   return (
     <Box
@@ -22,7 +22,8 @@ const ActionBlockTitle: FC = () => {
           p: '77px 0px 110px 0px'
         },
         '@media (max-width: 768px) and (min-width: 481px)': {
-          minHeight: '290px'
+          minHeight: '290px',
+          p: '77px 0px 110px 0px'
         },
         '@media (max-width: 480px)': {
           height: '160px',
@@ -32,7 +33,7 @@ const ActionBlockTitle: FC = () => {
       }}
     >
       <Box>
-        <Typography
+        {/* <Typography
           variant="h2"
           sx={{
             textTransform: 'uppercase',
@@ -171,8 +172,261 @@ const ActionBlockTitle: FC = () => {
           >
             {t('action title 5')}
           </Box>
-        </Typography>
+        </Typography> */}
+
+        <Box
+          sx={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '100%',
+            alignSelf: 'center',
+            gap: '99px',
+            flexWrap: 'wrap',
+            ml: '90px',
+            '@media (max-width: 1280px) and (min-width: 1031px)': {
+              ml: '115px',
+              gap: '123px'
+            },
+            '@media (max-width: 1031px) and (min-width: 993px)': {
+              ml: '80px',
+              gap: '123px'
+            },
+            '@media (max-width: 870px) and (min-width: 769px)': {
+              ml: '60px',
+              gap: '60px'
+            },
+            '@media (max-width: 768px) and (min-width: 651px)': {
+              ml: '45px',
+              gap: '90px'
+            },
+            '@media (max-width: 650px) and (min-width: 551px)': {
+              ml: '35px',
+              gap: '90px'
+            },
+            '@media (max-width: 550px) and (min-width: 481px)': {
+              ml: '15px',
+              gap: '80px'
+            },
+            '@media (max-width: 480px)': {
+              mt: '40px',
+              ml: '40px',
+              gap: '63px'
+            },
+            '@media (max-width: 430px)': {
+              ml: '30px',
+              gap: '53px'
+            },
+            '@media (max-width: 400px)': {
+              ml: '20px',
+              gap: '43px'
+            },
+            '@media (max-width: 370px)': {
+              ml: '10px',
+              gap: '30px'
+            },
+            '@media (max-width: 345px)': {
+              ml: '0px',
+              gap: '10px'
+            }
+          }}
+        >
+          <Typography
+            variant="h2"
+            sx={{
+              textTransform: 'uppercase',
+              fontSize: '94px',
+              letterSpacing: -2,
+              zIndex: 0,
+              '@media (max-width: 1280px) and (min-width: 993px)': {
+                fontSize: '84px'
+              },
+              '@media (max-width: 992px) and (min-width: 769px)': {
+                fontSize: '72px'
+              },
+              '@media (max-width: 768px) and (min-width: 651px)': {
+                fontSize: '56px'
+              },
+              '@media (max-width: 650px) and (min-width: 551px)': {
+                fontSize: '46px'
+              },
+              '@media (max-width: 550px) and (min-width: 481px)': {
+                fontSize: '40px'
+              },
+              '@media (max-width: 480px)': {
+                fontSize: '36px'
+              }
+            }}
+          >
+            {t('action title 1')}
+          </Typography>
+
+          <Typography
+            variant="h2"
+            sx={{
+              textTransform: 'uppercase',
+              fontSize: '94px',
+              letterSpacing: -2,
+              zIndex: 3,
+              '@media (max-width: 1280px) and (min-width: 993px)': {
+                fontSize: '84px'
+              },
+              '@media (max-width: 992px) and (min-width: 769px)': {
+                fontSize: '72px'
+              },
+              '@media (max-width: 768px) and (min-width: 651px)': {
+                fontSize: '56px'
+              },
+              '@media (max-width: 650px) and (min-width: 551px)': {
+                fontSize: '46px'
+              },
+              '@media (max-width: 550px) and (min-width: 481px)': {
+                fontSize: '40px'
+              },
+              '@media (max-width: 480px)': {
+                fontSize: '36px'
+              }
+            }}
+          >
+            {t('action title 2')}
+          </Typography>
+        </Box>
+
+        <Box
+          sx={{
+            display: 'flex',
+            flexWrap: 'wrap',
+            width: '100%',
+            '@media (max-width: 430px)': {
+              flexDirection: 'column'
+            }
+          }}
+        >
+          <Box
+            sx={{
+              display: 'flex',
+              position: 'relative',
+              mr: '40px',
+              '@media (max-width: 1280px) and (min-width: 993px)': {
+                mr: '0px'
+              },
+              '@media (max-width: 768px) and (min-width: 481px)': {
+                mr: '0px'
+              },
+              '@media (max-width: 480px)': {
+                mr: '0px'
+              }
+            }}
+          >
+            <Typography
+              variant="h2"
+              sx={{
+                textTransform: 'uppercase',
+                fontSize: '94px',
+                letterSpacing: -2,
+                zIndex: 3,
+                '@media (max-width: 1280px) and (min-width: 993px)': {
+                  fontSize: '84px'
+                },
+                '@media (max-width: 992px) and (min-width: 769px)': {
+                  fontSize: '72px'
+                },
+                '@media (max-width: 768px) and (min-width: 481px)': {
+                  fontSize: '56px'
+                },
+                '@media (max-width: 650px) and (min-width: 551px)': {
+                  fontSize: '46px'
+                },
+                '@media (max-width: 550px) and (min-width: 481px)': {
+                  fontSize: '40px'
+                },
+                '@media (max-width: 480px)': {
+                  fontSize: '36px'
+                }
+              }}
+            >
+              {t('action title 3')}
+            </Typography>
+            <Typography
+              variant="h2"
+              sx={{
+                textTransform: 'uppercase',
+                fontSize: '94px',
+                letterSpacing: -2,
+                '@media (max-width: 1280px) and (min-width: 993px)': {
+                  fontSize: '84px'
+                },
+                '@media (max-width: 992px) and (min-width: 769px)': {
+                  fontSize: '72px'
+                },
+                '@media (max-width: 768px) and (min-width: 481px)': {
+                  fontSize: '56px'
+                },
+                '@media (max-width: 650px) and (min-width: 551px)': {
+                  fontSize: '46px'
+                },
+                '@media (max-width: 550px) and (min-width: 481px)': {
+                  fontSize: '40px'
+                },
+                '@media (max-width: 480px)': {
+                  fontSize: '36px'
+                }
+              }}
+            >
+              {t('action title 4')}
+            </Typography>
+          </Box>
+          <Typography
+            variant="h2"
+            sx={{
+              textTransform: 'uppercase',
+              fontSize: '94px',
+              letterSpacing: -2,
+              zIndex: 3,
+              '@media (max-width: 1280px) and (min-width: 993px)': {
+                fontSize: '84px'
+              },
+              '@media (max-width: 992px) and (min-width: 769px)': {
+                fontSize: '72px'
+              },
+              '@media (max-width: 768px) and (min-width: 481px)': {
+                fontSize: '56px',
+                ml: '30px'
+              },
+              '@media (max-width: 650px) and (min-width: 551px)': {
+                fontSize: '46px',
+                ml: '20px'
+              },
+              '@media (max-width: 550px) and (min-width: 481px)': {
+                fontSize: '40px',
+                ml: '10px'
+              },
+              '@media (max-width: 480px) and (min-width: 321px)': {
+                fontSize: '36px',
+                ml: '15px'
+              },
+              '@media (max-width: 430px)': {
+                ml: '0px',
+                width: '100%',
+                textAlign: 'end',
+                textIndent: '180px'
+              },
+              '@media (max-width: 400px)': {
+                textIndent: '150px'
+              },
+              '@media (max-width: 370px)': {
+                textIndent: '120px'
+              },
+              '@media (max-width: 320px)': {
+                fontSize: '36px'
+              }
+            }}
+          >
+            {t('action title 5')}
+          </Typography>
+        </Box>
       </Box>
+
       <Box
         component={'img'}
         src="/Holographic2.png"
