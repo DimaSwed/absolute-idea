@@ -195,7 +195,7 @@ const Form: FC = () => {
 
               {/* Phone Number Field */}
               <InputMask
-                mask="+7 (999) 999-99-99"
+                mask="+420 (999) 999-999"
                 value={formik.values.telephone}
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}

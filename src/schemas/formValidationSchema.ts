@@ -35,9 +35,8 @@ export const formValidationSchema = (t: (key: string) => string) =>
       .min(2, t('validation.name.min'))
       .matches(/^[A-Za-z\s\-]+$/, t('validation.name.matches')),
 
-    telephone: Yup.string()
-      .required(t('validation.telephone.required'))
-      .matches(/^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$/, t('validation.telephone.matches')),
+    telephone: Yup.string().required(t('validation.telephone.required')),
+    // .matches(/^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$/, t('validation.telephone.matches')),
 
     mail: Yup.string()
       .email(t('validation.mail.email'))
