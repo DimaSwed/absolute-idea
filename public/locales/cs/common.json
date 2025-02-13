@@ -159,7 +159,7 @@
     },
     "telephone": {
       "required": "Uveďte prosím kontaktní telefonní číslo!",
-      "matches": "Zadejte prosím platné telefonní číslo ve formátu +7 (___) ___-__-__",
+      "matches": "Zadejte prosím platné telefonní číslo ve formátu +420 (__) ___-___",
       "numbers": "Zadejte prosím pouze čísla"
     },
     "mail": {
